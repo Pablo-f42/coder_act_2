@@ -46,11 +46,40 @@ p {
     padding-left: 50px; 
 }
 
-.nav-link {
-    font-family: nunito sans, sans-serif; 
-    color: white;
-    font-size: 1.6rem;
+.list-menu {
+    
+    width: 600px;
+    font-family: nunito sans, sans-serif;
+    list-style-type: none ;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #efefef; 
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.li-menu {
+    font-family: nunito sans, sans-serif;
+    list-style-type: none ;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffffff; 
+}
+
+.navbar-toggler {
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    font-size: 3rem;
+    padding-right: 50px;
+  }
 
 .hero {
     background-image: url(./img/HERO_BKG.jpg);
