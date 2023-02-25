@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;900&display=swap');
 
 
-body {background-color: black;}
+body {background-color: rgb(233, 245, 248);}
 
 html {
     font-size: 62.5%;
@@ -122,3 +122,87 @@ p {
     flex-direction: column;
     align-items: center;
 }}
+
+.bot-icon {
+    font-size: 34px !important;
+}
+
+.col-ia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    
+}
+
+.title-ia {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lin-strk {
+    border: 1px solid black;
+}
+
+.row-epi {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.epi {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pod {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pod-cover {
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 7%;
+}
+
+.title-pod {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.play-icon {
+    position: absolute;
+    font-size: 80px !important;
+    color: #ffffff;
+    top: 1666px;
+}
+
+.cont-foot {
+    background-color: #252525;
+}
+
+.list-fotter {
+    font-family: nunito sans, sans-serif;
+    list-style-type:none ;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #efefef;
+    padding-top: 30px;
+}
+
+.li-menu-r {
+    color: #efefef;
+    text-decoration: none;
+}
