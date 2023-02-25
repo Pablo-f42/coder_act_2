@@ -7,6 +7,33 @@ html {
     font-size: 62.5%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: nunito sans, sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3.5rem;
+
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.6rem;
+    
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.7rem;
+    
+}
+
 .menu {
     background-color: #570000;
 
@@ -27,54 +54,71 @@ html {
 
 .hero {
     background-image: url(./img/HERO_BKG.jpg);
-    height: 800px;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-.col-hero {
-    text-align: center;
+.hero-row {
+    height: 90vh;
 }
 
-.title-cover-hero {
-    color: #efefef;
+.col-zero {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.description-cover {
-    color: #efefef;
-    width: 340px;
+@media (max-width: 991px) {
+.col-zero {
+    display: flex;
+    justify-content: center;
 }
+}
+
+.zero-cover {
+    width: 350px;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 7%;
+}
+
+.hero-info {
+    color: white;
+}
+
+.hero-info-p {
+    width: 500px;
+}
+
+@media (max-width: 991px) {
+    .hero-info-p-res{
+        width: 350px;
+        text-align: center;
+    }}
 
 .button {
-    width: 250px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
     font-family: nunito sans, sans-serif;
-    font-weight: 800;
-    font-size: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
     text-decoration: none;
     color: #efefef;
     border: none;
     background-color: #4AB824;
-    padding: 0;
     border-radius: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
-.hero-c {
-    height: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.cover {
-    display: inline-block;
-    width: 300px;
-}
-
-.zero {
-    width: 300px;
-    height: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 7%;
-
-}
+@media (max-width: 991px) {
+.col-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}}
