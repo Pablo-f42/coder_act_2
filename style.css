@@ -70,7 +70,7 @@ p {
     list-style-type: none ;
     font-size: 1.3rem;
     font-weight: 600;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .navbar-toggler {
@@ -89,8 +89,41 @@ p {
     background-size: cover;
 }
 
+.hero-hist {
+    background-image: url(./img/historia.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-epi {
+    background-image: url(./img/historia.jpg);
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hero-row {
     height: 90vh;
+}
+
+.hist-row {
+    height: 50vh;
+}
+
+.epi-row {
+    height: 40vh;
+}
+
+.col-lgo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 
 .col-zero {
@@ -234,4 +267,43 @@ p {
 .li-menu-r {
     color: #efefef;
     text-decoration: none;
+}
+
+.epi-der {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+@media (max-width: 991px) {
+    .epi-der {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.pod-gen {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 991px) {
+.col-pod-inv {
+    display: flex;
+    flex-direction: column-reverse;
+}}
+
+.epi-izq {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+}
+
+@media (max-width: 991px) {
+    .epi-izq {
+        display: flex;
+        align-items: center;
+    }
 }
