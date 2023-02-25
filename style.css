@@ -105,12 +105,28 @@ p {
     background-size: cover;
 }
 
+.hero-jgo {
+    background-image: url(./img/5.gif);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-jgo-flex {
+    display: flex;
+    align-content: center;
+}
+
 .hero-row {
     height: 90vh;
 }
 
 .hist-row {
     height: 50vh;
+}
+.jgo-row {
+    height: 100vh;
 }
 
 .epi-row {
@@ -176,6 +192,21 @@ p {
     display: grid;
     align-items: center;
     justify-content: center;
+}
+
+.button-white {
+    width: 250px;
+    height: 60px;
+    font-family: nunito sans, sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #efefef  ;
+    background-color: transparent;
+    border-color: #efefef;
+    padding: 0;
+    margin-top: 60px;
+    border-radius: 30px;
 }
 
 @media (max-width: 991px) {
@@ -307,3 +338,6 @@ p {
         align-items: center;
     }
 }
+
+
+
