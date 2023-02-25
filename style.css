@@ -339,5 +339,39 @@ p {
     }
 }
 
+.form-one {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+
+  .formulario {
+    padding-top: 100px;
+  }
+  
+  @media (max-width: 991px) {
+    .form-one {
+            width: 450px;
+            margin: 0 auto;
+            padding: 30px;
+          }
+    }
 
 
